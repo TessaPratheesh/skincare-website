@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Upload</title>
+        <link rel="stylesheet" type="text/css" href="upload.css">
+    </head>
+    <body>
+        <section>
+            <form action="" autocomplete="off" entype="multipart/form-data">
+                <p>Upload file</p>
+                <div>
+                    <input type="file" id="upload" style="display: none;">
+                    <label for="upload">Select Files</label>
+                </div>
+                <button><span>&#8682; Upload</span><span class="uploading">Uploading.....
+                </span></button>
+                <button class="cancel">Cancel Upload</button>
+                <div class="pr">
+                    <strong>
+                        <h4 class="ex">PDF</h4>
+                        <h5 class="size">2.5kb</h5>
+                    </strong>
+                    <progress min="0" max="100" value="0"></progress>
+                    <span class="progress-indicator"></span>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
+<script type="text/javascript" src="main.js"></script>
