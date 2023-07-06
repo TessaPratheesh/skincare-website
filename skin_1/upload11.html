@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Image</title>
+  <style>
+    body {
+      background: url(image/type.jpg);
+      background-color: #f9e6e9; /* Light pink background color */
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .upload-box {
+        text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.329);/* Box background color */
+    }
+    h1 {
+      color: #333; /* Heading color */
+    }
+    #upload-btn {
+      margin-top: 20px;
+    }
+
+    .submit
+    {
+        margin-top: 50px;
+        margin-left: 50px;;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="upload-box">
+      <h1>Upload Image</h1>
+      <input type="file" id="upload-btn" accept="image/*">
+      <button submit="window.location.href='result.html';">Submit</button>
+    </div>
+  </div>
+</body>
+</html>
